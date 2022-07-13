@@ -1,22 +1,7 @@
 {
-  "results": [
-    {
-      "id":17811,
-      "name":"Der dingle",
-      "ident":"DE-0140",
-      "local_code":null,
-      "region":"DE-HE",
-      "type":"small_airport",
-      "country":"DE"
-    }
-    {
-      "id":18496,
-      "name":"Verer ",
-      "ident":"EBSN",
-      "local_code":null,
-      "region":"BE-WLG",
-      "type":"closed",
-      "country":"BE"
-    }
-  ]
+  "User": {
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
 }
