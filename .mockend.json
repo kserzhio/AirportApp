@@ -1,14 +1,22 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "results": [
+    {
+      "id":17811,
+      "name":"Der dingle",
+      "ident":"DE-0140",
+      "local_code":null,
+      "region":"DE-HE",
+      "type":"small_airport",
+      "country":"DE"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+    {
+      "id":18496,
+      "name":"Verer ",
+      "ident":"EBSN",
+      "local_code":null,
+      "region":"BE-WLG",
+      "type":"closed",
+      "country":"BE"
     }
-  }
+  ]
 }
